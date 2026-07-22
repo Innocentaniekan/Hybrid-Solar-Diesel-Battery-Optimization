@@ -15,6 +15,9 @@ The simulation results are analysed using Python and visualized through an inter
 
 The project demonstrates how renewable energy analytics can support evidence-based decision-making for sustainable energy planning.
 
+## Executive Dashboard
+
+![Executive Dashboard](images/Executive_Dashboard.PNG)
 
 ## Project Objectives
 
