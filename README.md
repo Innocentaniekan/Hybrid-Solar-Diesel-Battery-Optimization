@@ -155,3 +155,130 @@ Additional variables generated during the simulation include:
 - Energy_Gap
 - Excess_Solar
 - Month
+
+
+## Mathematical Model
+
+The hybrid energy system was modelled using a rule-based energy management approach that prioritizes solar photovoltaic (PV) generation, followed by battery storage, and finally diesel generation whenever renewable energy is insufficient to satisfy the household load.
+
+The model follows these steps for each day of the simulation:
+
+1. Estimate solar energy generation from daily solar irradiance.
+2. Compare the generated solar energy with the household electricity demand.
+3. Supply the load directly from solar energy whenever available.
+4. Store excess solar energy in the battery until the battery reaches its maximum capacity.
+5. When solar energy is insufficient, discharge the battery to supply the remaining load.
+6. If the battery becomes depleted, use the diesel generator to satisfy the remaining electricity demand.
+
+The following equations were applied during the simulation.
+
+### Solar Energy Output
+
+Solar Output = Solar Irradiance × System Size × System Efficiency
+
+### Energy Gap
+
+Energy Gap = Load − Solar Output
+
+### Battery Charging
+
+Battery SOC = Previous SOC + Excess Solar
+
+where Battery SOC cannot exceed the battery capacity.
+
+### Battery Discharging
+
+Battery Discharge = Minimum (Battery SOC, Energy Gap)
+
+### Diesel Energy Requirement
+
+Diesel Required = Maximum (Energy Gap − Battery Discharge, 0)
+
+This sequential energy management strategy minimizes diesel generator operation while maximizing the utilization of renewable energy and battery storage.
+
+
+## Dashboard Overview
+
+The simulation results were visualized using Microsoft Power BI through an interactive dashboard consisting of four analytical pages.
+
+### Executive Dashboard
+
+Provides a high-level summary of the hybrid energy system using Key Performance Indicators (KPIs), monthly trends, and interactive filtering.
+
+Key indicators include:
+
+- Solar Generation
+- Energy Demand
+- Battery Output
+- Diesel Output
+- Diesel Required
+- Average Battery SOC
+- Maximum Battery SOC
+
+
+
+### Economic Dashboard
+
+Evaluates the financial performance of the hybrid energy system through:
+
+- Diesel Cost
+- Battery Investment Cost
+- Cost Savings
+- Payback Analysis
+
+
+
+### Environmental Dashboard
+
+Measures environmental sustainability using:
+
+- CO₂ Emissions
+- CO₂ Reduction
+- Solar Energy Contribution
+- Diesel Reduction
+
+
+
+### Battery Performance Dashboard
+
+Monitors battery behaviour throughout the simulation period, including:
+
+- Battery State of Charge (SOC)
+- Battery Charging
+- Battery Discharging
+- Battery Utilization
+- Remaining Energy Gap
+
+
+## Results & Discussion
+
+The simulation demonstrates the effectiveness of integrating solar photovoltaic generation with battery storage to reduce dependence on diesel generators for residential electricity supply.
+
+Key findings include:
+
+- Solar PV supplied the majority of the annual household energy demand.
+- The battery successfully stored excess solar energy during high-generation periods and supplied electricity during periods of insufficient solar production.
+- Diesel generator usage decreased significantly after battery integration.
+- Increasing battery capacity reduced diesel energy requirements, although the rate of improvement decreased at higher battery capacities.
+- Environmental analysis showed a reduction in diesel-related carbon dioxide (CO₂) emissions.
+- Economic analysis indicated that although larger batteries require higher initial investment, they contribute to long-term reductions in diesel operating costs.
+
+The interactive Power BI dashboard provides decision-makers with an intuitive platform for monitoring technical performance, economic benefits, and environmental impacts of hybrid renewable energy systems.
+
+
+## Repository Structure
+
+```text
+Hybrid-Solar-Diesel-Battery-Optimization/
+
+├── Data/                  # Input and processed datasets
+├── notebooks/             # Jupyter Notebook analysis
+├── scripts/               # Python scripts
+├── powerbi/               # Power BI dashboard
+├── outputs/               # Simulation outputs
+├── images/                # Dashboard screenshots
+├── docs/                  # Project documentation
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
