@@ -250,6 +250,39 @@ Monitors battery behaviour throughout the simulation period, including:
 - Remaining Energy Gap
 
 
+## Dashboard Preview
+
+The following dashboards were developed in **Microsoft Power BI** to provide an interactive visualization of the hybrid solar–diesel–battery energy system.
+
+### Executive Dashboard
+
+![Executive Dashboard](images/Executive_Dashboard.PNG)
+
+---
+
+### Monthly Energy Dashboard
+
+![Monthly Energy Dashboard](images/Monthly_Energy_Dashboard.PNG)
+
+---
+
+### Economic Dashboard
+
+![Economic Dashboard](images/Economic_Dashboard.PNG)
+
+---
+
+### Environmental Dashboard
+
+![Environmental Dashboard](images/Environmental_Dashboard.PNG)
+
+---
+
+### Battery Performance Dashboard
+
+![Battery Performance Dashboard](images/Battery_Performance_Dashboard.PNG)
+
+
 ## Results & Discussion
 
 The simulation demonstrates the effectiveness of integrating solar photovoltaic generation with battery storage to reduce dependence on diesel generators for residential electricity supply.
