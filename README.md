@@ -282,3 +282,70 @@ Hybrid-Solar-Diesel-Battery-Optimization/
 ├── requirements.txt
 └── LICENSE
 ```
+
+
+## Installation Guide
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Innocentaniekan/Hybrid-Solar-Diesel-Battery-Optimization.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Hybrid-Solar-Diesel-Battery-Optimization
+```
+
+Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Launch the notebook located in the `notebooks` folder and run the cells sequentially to reproduce the analysis.
+
+The Power BI dashboard can be opened using Microsoft Power BI Desktop.
+
+
+## Future Improvements
+
+Potential future enhancements include:
+
+- Integration of real-time weather data.
+- Machine learning models for solar energy forecasting.
+- Electricity demand forecasting using historical consumption data.
+- Battery degradation modelling.
+- Multi-objective optimization of cost, reliability, and emissions.
+- Web-based dashboard deployment.
+- Integration with IoT-enabled smart energy systems.
+
+
+## About the Author
+
+**Innocent Aniekan**
+
+Mechanical Engineering Technologist with interests in renewable energy systems, hybrid power systems, energy analytics, data visualization, and sustainable development.
+
+This project demonstrates practical experience in:
+
+- Python Programming
+- Data Analysis
+- Renewable Energy Modelling
+- Battery Energy Storage Systems
+- Power BI Dashboard Development
+- Git & GitHub
+
+
+## License
+
+This project is distributed under the MIT License.
+
+See the LICENSE file for additional information.
