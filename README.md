@@ -1,8 +1,30 @@
 # Hybrid Solar–Diesel–Battery Energy Optimization Dashboard for Nigerian Households
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![Git](https://img.shields.io/badge/Git-Version%20Control-red?logo=git)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A data-driven renewable energy analytics project that models and evaluates the technical, economic, and environmental performance of a hybrid solar photovoltaic (PV), diesel generator, and battery energy storage system for residential electricity supply in Nigeria.
 
 The project combines Python for energy system modelling and Power BI for interactive dashboard visualization to demonstrate how hybrid renewable energy systems can reduce diesel consumption, lower carbon emissions, improve battery utilization, and support sustainable household electrification.
+
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Dataset](#dataset)
+- [Mathematical Model](#mathematical-model)
+- [Dashboard Overview](#dashboard-overview)
+- [Dashboard Preview](#dashboard-preview)
+- [Results & Discussion](#results--discussion)
+- [Repository Structure](#repository-structure)
+- [Installation Guide](#installation-guide)
+- [Future Improvements](#future-improvements)
+- [About the Author](#about-the-author)
+- [License](#license)
 
 
 ## Project Overview
