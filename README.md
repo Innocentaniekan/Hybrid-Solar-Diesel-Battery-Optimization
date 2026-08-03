@@ -37,6 +37,16 @@ The simulation results are analysed using Python and visualized through an inter
 
 The project demonstrates how renewable energy analytics can support evidence-based decision-making for sustainable energy planning.
 
+
+## 🔄 Project Workflow
+
+The diagram below summarizes the workflow followed in developing the hybrid solar–diesel–battery optimization project.
+
+<p align="center">
+  <img src="images/Hybrid Energy System Project flowchart.png" alt="Hybrid Energy System Project flowchart" width="1000">
+</p>
+
+
 ## Executive Dashboard
 
 ![Executive Dashboard](images/Executive_Dashboard.PNG)
@@ -115,45 +125,13 @@ This project includes the following features:
 
 ## Project Architecture
 
-The project follows the workflow below:
+## 🏗 Hybrid Energy System Architecture
 
-NASA POWER Solar Data
+The figure below illustrates the interaction between the solar PV system, battery storage, diesel generator, Python simulation model, and Power BI dashboards.
 
-↓
-
-Python Data Processing
-
-↓
-
-Hybrid Energy System Simulation
-
-↓
-
-Battery Charging & Discharging Model
-
-↓
-
-Diesel Generator Optimization
-
-↓
-
-Economic Analysis
-
-↓
-
-Environmental Analysis
-
-↓
-
-CSV Output Dataset
-
-↓
-
-Power BI Dashboard Development
-
-↓
-
-Interactive Decision Support Dashboard
+<p align="center">
+  <img src="images/Hybrid Energy System Architecture.png" alt="Hybrid Energy System Architecture" width="1000">
+</p>
 
 
 ## Dataset
