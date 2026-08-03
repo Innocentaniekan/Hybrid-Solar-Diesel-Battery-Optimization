@@ -43,7 +43,7 @@ The project demonstrates how renewable energy analytics can support evidence-bas
 The diagram below summarizes the workflow followed in developing the hybrid solar–diesel–battery optimization project.
 
 <p align="center">
-  <img src="images/Hybrid Energy System Project flowchart.png" alt="Hybrid Energy System Project flowchart" width="1000">
+  <img src="images/Hybrid Energy System Project Flowchart.png" alt="Hybrid Energy System Project Flowchart" width="1000">
 </p>
 
 
